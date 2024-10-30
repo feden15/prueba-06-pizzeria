@@ -1,25 +1,48 @@
 body {
-    background-color: rgb(211,71,46);
+    background-color: rgb(242,240,177);
     text-align: center;
 }
 
-header {
+#header {
     text-align: center;
     word-spacing: 20px;
+    font-size: 25px;
+    font-family: Calibri, sans-serif;
 }
 
 #banner {
     width: 100%;
     height: 290px;
-    margin-bottom: -80px;
-    margin-top: 10px;
 }
 
 h1 {
     text-align: center;
-    color: #faebd7;
+    color: rgb(113,132,5);
     font-family: "Cookie", cursive;
     font-weight: 500;
-    font-size: 150px;
+    font-size: 180px;
     font-style: normal;
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
+
+#novedades {
+    text-align: start;
+    font-size: 30px;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(113,132,5);
+}
+
+a:link {
+    color: rgb(113,132,5);
+}
+
+a:visited {
+    color: rgb(113,132,5);
+}
+
+a:hover {
+    color: black;
 }
