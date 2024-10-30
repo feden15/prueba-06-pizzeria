@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(211,71,46);
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    word-spacing: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: 290px;
+    margin-bottom: -80px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #faebd7;
+    font-family: "Cookie", cursive;
+    font-weight: 500;
+    font-size: 150px;
+    font-style: normal;
+}
