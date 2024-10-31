@@ -13,13 +13,56 @@
     <hr>
     <img id="banner" src="img/banner.webp" alt="Banner de pizza">
     <hr>
+
     <h1>Fede's Pizzas</h1>
     <hr>
+
     <div id="header">
       <a href="index.html">Inicio</a>
       <a href="nosotros.html">Nosotros</a>
       <a href="contacto.html">Contacto</a>
     </div>
+    <hr>
+
+    <form action="#">
+      
+      <fieldset>
+        <legend>Elige el tamaño:</legend>
+        <!-- RadioButtom -> Única opción, solo puedo selecionar una opción -->
+        <input type="radio" name="tamanio" value="porción">
+        <label for="">Porción</label>
+        <input type="radio" name="tamanio" value="mediana">
+        <label for="">Mediana</label>
+        <input type="radio" name="tamanio" value="grande">
+        <label for="">Grande</label>
+        <input type="radio" name="tamanio" value="metro">
+        <label for="">Metro</label>
+      </fieldset>
+
+      <fieldset>
+        <!-- Checkbox Opciones multiples, puedo elegir más de una opción -->
+        <legend>Qué gustos le agregas?</legend>
+        <input type="checkbox" name="ingredientes" value="muzzarella">
+        <label for="">Muzzarella</label>
+        <input type="checkbox" name="ingredientes" value="jamón">
+        <label for="">Jamón</label>
+        <input type="checkbox" name="ingredientes" value="panceta">
+        <label for="">Panceta</label>
+        <input type="checkbox" name="ingredientes" value="morrón">
+        <label for="">Morrón</label>
+        <input type="checkbox" name="ingredientes" value="salame">
+        <label for="">Salame</label>
+        <input type="checkbox" name="ingredientes" value="champiniones">
+        <label for="">Champiñones</label>
+        <input type="checkbox" name="ingredientes" value="aceitunas">
+        <label for="">Aceitunas</label>
+        <input type="checkbox" name="ingredientes" value="anana">
+        <label for="">Anana</label>
+      </fieldset>
+
+      <button type="submit">Pedir</button>
+      <button type="reset">Borrar todo</button>
+     </form>
 
     <script type="module" src="/main.js"></script>
   </body>

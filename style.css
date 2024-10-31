@@ -10,9 +10,15 @@ body {
     font-family: Calibri, sans-serif;
 }
 
+.foto-banner {
+    text-align: justify;
+    width: 33%;
+    height: auto;
+    display: inline;
+}
+
 #banner {
-    width: 100%;
-    height: 290px;
+    display: inline;
 }
 
 h1 {
@@ -20,7 +26,7 @@ h1 {
     color: rgb(113,132,5);
     font-family: "Cookie", cursive;
     font-weight: 500;
-    font-size: 180px;
+    font-size: 190px;
     font-style: normal;
     margin-bottom: -40px;
     margin-top: -20px;
@@ -28,11 +34,12 @@ h1 {
 
 #novedades {
     text-align: start;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Calibri, sans-serif;
     font-style: italic;
     font-weight: 400;
     color: rgb(113,132,5);
+    margin-left: 40px;
 }
 
 a:link {
@@ -45,4 +52,8 @@ a:visited {
 
 a:hover {
     color: black;
+}
+
+.a-la-derecha {
+    float: right;
 }
